@@ -1,0 +1,4 @@
+#Force non-www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.viewport\.design [NC]
+RewriteRule ^(.*)$ http://viewport.design/$1 [L,R=301]

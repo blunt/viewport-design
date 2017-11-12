@@ -1,0 +1,47 @@
+@font-face {
+    font-family:"Swiss_721";
+    font-weight: 500;
+    src:url("../fonts/debae208-0c7b-4232-ba62-313e2d9d14c7.eot?#iefix");
+    src:url("../fonts/debae208-0c7b-4232-ba62-313e2d9d14c7.eot?#iefix") format("eot"),url("../fonts/c01ba868-3eaf-4bf4-b173-216c1156d174.woff2") format("woff2"),url("../fonts/19c307d6-6fd8-47d3-a56d-fa998322491a.woff") format("woff"),url("../fonts/61571c7a-d78e-4d50-822d-194e2b92a1f1.ttf") format("truetype"),url("../fonts/eafecdd5-35c6-4dc5-bc71-9b81010c7fa4.svg#eafecdd5-35c6-4dc5-bc71-9b81010c7fa4") format("svg");
+}
+
+@font-face {
+    font-family:"Swiss_721";
+    font-weight: 700;
+    src:url("../fonts/5b9ccca5-47aa-44da-9a69-75a9c5b8f314.eot?#iefix");
+    src:url("../fonts/5b9ccca5-47aa-44da-9a69-75a9c5b8f314.eot?#iefix") format("eot"),url("../fonts/b30d2835-5b41-443d-bb15-9fe76345d117.woff2") format("woff2"),url("../fonts/6f8c05f7-2d01-4282-ba89-505635df2953.woff") format("woff"),url("../fonts/3fa115a3-0515-4bbd-94cc-555dc6341889.ttf") format("truetype"),url("../fonts/d3755f1d-88db-4cd3-a42b-8226e3aeeaf4.svg#d3755f1d-88db-4cd3-a42b-8226e3aeeaf4") format("svg");
+}
+
+@font-face {
+    font-family:"Swiss_721";
+    font-weight: 800;
+    src:url("Fonts/27917320-0b2d-426d-98d4-83c0e3d69ae4.eot?#iefix");
+    src:url("Fonts/27917320-0b2d-426d-98d4-83c0e3d69ae4.eot?#iefix") format("eot"),url("Fonts/9743ca0d-57a4-4e0c-bfd0-d67e4650c3fe.woff2") format("woff2"),url("Fonts/d023055c-f8aa-452a-8706-4ef531637649.woff") format("woff"),url("Fonts/b54a684f-f07a-44db-83b1-88e64a71e455.ttf") format("truetype"),url("Fonts/ef7088da-e5b3-4467-9b6b-ae692ea09fbb.svg#ef7088da-e5b3-4467-9b6b-ae692ea09fbb") format("svg");
+}
+
+@font-face {
+    font-family:"Swiss_721";
+    font-weight: 900;
+    src:url("../fonts/bf098a5b-1ed4-41db-85df-660e72c30b12.eot?#iefix");
+    src:url("../fonts/bf098a5b-1ed4-41db-85df-660e72c30b12.eot?#iefix") format("eot"),url("../fonts/3a45bf22-a313-4e07-937f-5e4501939abb.woff2") format("woff2"),url("../fonts/dca67071-e60c-46f2-b400-0050b9ad09cc.woff") format("woff"),url("../fonts/c5943c46-938f-4d2e-8d05-483658075cce.ttf") format("truetype"),url("../fonts/2f336aca-0379-4448-b0db-c5c501e4a3b5.svg#2f336aca-0379-4448-b0db-c5c501e4a3b5") format("svg");
+}
+
+body {
+    font-family: "Swiss_721", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+    font-weight: 500;
+}
+
+.logo {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(15, 1fr); 
+}
+
+.about {
+    left: 100%;
+    margin-left: -50px;
+    top: 50%;
+    transform: rotate(90deg);
+}

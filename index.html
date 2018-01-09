@@ -1,37 +1,69 @@
-<html lang="en">
+<html class="bg-black" lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Browser Posters</title>
+    <title>Viewport Design</title>
+
+    <!-- Facebook -->
+    <meta property="og:title" content="Viewport Design"/>
+    <meta property="og:image" content="http://viewport.design/img/viewport-design.png"/>
+    <meta property="og:site_name" content="Viewport Design"/>
+    <meta property="og:description" content="Viewport design is a collection of responsive art made with CSSGrid for your browser."/>
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@blunt_asfuck" />
+    <meta name="twitter:title" content="Viewport Design" />
+    <meta name="twitter:description" content="Viewport design is a collection of responsive art made with CSSGrid for your browser." />
+    <meta name="twitter:image" content="http://viewport.design/img/viewport-design.png" />
 </head>
 <link rel="stylesheet" href="css/main.css">
 
 <body>
-    <h1 class="fixed nowrap logo ttu white f6 w-40-ns w-90 fw8">
-        <span class="tc fw9">v</span>
-        <span class="tc fw9">i</span>
-        <span class="tc fw9">e</span>
-        <span class="tc fw9">w</span>
-        <span class="tc fw9">p</span>
-        <span class="tc fw9">o</span>
-        <span class="tc fw9">r</span>
-        <span class="tc fw9">t</span>
-        <span class="tc fw9"> </span>
-        <span class="tc">d</span>
-        <span class="tc">e</span>
-        <span class="tc">s</span>
-        <span class="tc">i</span>
-        <span class="tc">g</span>
-        <span class="tc">n</span>
-    </h1>
-    <!-- <div class="z-1 fixed nowrap about ttu white fw8 pointer">
-         About
-    </div> -->
-    <div class="page vh-100 bg-dark-red flex items-center">
+    <div class="fixed left-0 top-0 right-0 bottom-0 bg-red dn z-5 overflow-y-scroll" id="js-info-page">
+        <div class="mw9 center w-90 pv3 cf white-50 tc f6">
+            <span class="fr db w-third-ns w-50"><button class="js-info z-6 bg-transparent bn white input-reset pointer fw9 pa0 br0">kcool.</button></span>
+        </div>
+        <div class="white f4-ns f5 pv6 ph3">
+            <div class="mw6 center">
+                <p class="lh-copy mb3">The viewport is a unique medium, it comes in all sizes, it can be resized from every corner, it can be scrolled, and it's interactive.</p>
+            </div>
+            <div class="mw7 center tc">
+                <h2 class="f2-ns f3 fw9 mb4 lh-title">Viewport design is a collection of responsive art made with CSSGrid for your browser.</h2>
+            </div>
+            <div class="mw6 center">
+                <p class="lh-copy mb3">It's okay that your site isn't picture perfect at every pixel. Enjoy the quirks. Celebrate the browser as a unique medium.</p>
+            </div>
+        </div>
+    </div>
+    <div class="fixed w-100 z-3">
+        <div class="mw9 center w-90 pv3 cf white-50 tc f6">
+            <span class="fl db w-third-ns w-50">By <a class="link white fw9" href="http://blunt.af" target="_blank">Blunt</a></span>
+            <span class="fl db-ns dn w-third">Share on 
+                <a class="link white fw9" href="http://www.facebook.com/sharer.php?u=http://viewport.design/" target="_blank">Fb</a> or 
+                <a class="link white fw9" href="https://twitter.com/share?url=http://viewport.design/&amp;text=Viewport%20Design&amp;hashtags=viewportdesign" target="_blank">
+                    Tw
+                </a>
+            </span>
+            <span class="fl db w-third-ns w-50"><button class="js-info z-6 bg-transparent bn white input-reset pointer fw9 pa0 br0">What dis?</button></span>
+        </div>
+    </div>
+    <div class="panel vh-100 flex items-center relative" data-color="#000">
+        <h1 class="f1-l tc f2 white w-100 nt4-ns nt3 fw9 lh-title">
+            <span class="viewport"></span>
+            <span class="fw9 stroke black design dib-ns db">Design</span>
+        </h1>
+        <div class="absolute pv3 bottom-0 eyes">
+            <span class="dib br-100 w1 h1 relative">
+                <span class="ball bg-white br-pill db absolute"></span>
+            </span>
+        </div>
+    </div>
+    <div class="page panel z-2 relative vh-100 flex items-center" data-color="#C42E16">
         <div class="w-100 vh-70 center tc relative">
-            <h2 class="f-subheadline-ns f1 white fw7 absolute w-100 nt4-ns nt3 ttu fw9 z-5">Three</h2>
+            <h2 class="f-subheadline-ns f1 fw7 absolute w-100 nt4-ns nt3 fw9 z-4 stroke transparent">Three</h2>
             <div class="container grid w-30-l w-60-m w-90 h-100 center">
                 <div class="z-1 ba bw1 b--pink br-pill br--left br--top grid-row-1 grid-column-2 grid-row-span-2 grid-column-span-2"></div>
                 <div class="bg-red grid-row-3 grid-column-2 grid-row-span-4 grid-column-span-8"></div>
@@ -41,9 +73,9 @@
             </div>
         </div>
     </div>
-    <div class="page vh-100 bg-green flex items-center">
+    <div class="page panel z-2 relative vh-100 flex items-center" data-color="#01423C">
         <div class="w-100 vh-60 center tc relative">
-            <h2 class="f-subheadline-ns f1 white fw7 absolute w-100 nt4-ns nt3 ttu fw9 z-5">Two</h2>
+            <h2 class="f-subheadline-ns f1 fw7 absolute w-100 nt4-ns nt3 fw9 z-4 stroke transparent">Two</h2>
             <div class="container grid w-70-ns w-90 h-100 center">
                 <div class="bg-dark-green grid-row-3 grid-column-2 grid-row-span-5 grid-column-span-8"></div>
                 <div class="z-1 ba bw1 b--white br-pill br--right grid-row-4 grid-column-1 grid-row-span-4 grid-column-span-4"></div>
@@ -53,9 +85,9 @@
             </div>
         </div>
     </div>
-    <div class="page vh-100 bg-dark-pink flex items-center">
+    <div class="page panel z-2 relative vh-100 flex items-center" data-color="#C89379">
         <div class="w-100 vh-70 center tc relative">
-            <h2 class="f-subheadline-ns f1 white fw7 absolute w-100 nt4-ns nt3 ttu fw9 z-5">One</h2>
+            <h2 class="f-subheadline-ns f1 fw7 absolute w-100 nt4-ns nt3 fw9 z-4 stroke transparent">One</h2>
             <div class="container grid w-40-ns w-60 h-100 center">
                 <div class="bg-pink grid-row-6 grid-column-2 grid-row-span-5 grid-column-span-8"></div>
                 <div class="z-1 ba bw1 b--white br-pill br--left br--top grid-row-7 grid-column-3 grid-row-span-6 grid-column-span-4"></div>
@@ -66,6 +98,7 @@
         </div>
     </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
     var pages = document.getElementsByClassName('page');
     var mouseX = 0;
@@ -87,6 +120,52 @@
         child.style.width = mouseX
         child.style.height = mouseY
         return true;
+    }
+
+    $(window).scroll(function() {
+
+      // selectors
+      var $window = $(window),
+          $body = $('body'),
+          $panel = $('.panel');
+
+      // Change earlier than scroll position so colour is there when you arrive.
+      var scroll = $window.scrollTop() + ($window.height() / 8);
+
+      $panel.each(function () {
+        var $this = $(this);
+
+        // if position is within range of this panel.
+        // So position of (position of top of div <= scroll position).
+        if ($this.position().top <= scroll) {
+          // Add class of currently active div
+          $body.css('background-color', $(this).data('color'));
+        }
+      });    
+
+    }).scroll();
+
+    // Info
+    const infoButton = document.querySelectorAll('.js-info');
+    const infoPanel = document.getElementById('js-info-page');
+    const body = document.getElementsByTagName('body')[0];
+
+    Array.from(infoButton).forEach((element) => {
+      element.addEventListener('click', () => {
+        showInfo();
+      });
+    });
+
+    function showInfo() {
+        if (infoPanel.classList.contains("dn")) {
+            infoPanel.classList.remove("dn");
+            infoPanel.classList.add("db");
+            body.classList.add("overflow-hidden");
+        } else {
+            infoPanel.classList.remove("db");
+            infoPanel.classList.add("dn");
+            body.classList.remove("overflow-hidden");
+        }
     }
 </script>
 

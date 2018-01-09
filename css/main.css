@@ -1789,7 +1789,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .f-6, .f-headline { font-size: 6rem; }
 .f-5, .f-subheadline { font-size: 5rem; }
 /* Type Scale */
-.f1 { font-size: 3rem; }
+.f1 { font-size: 3.5rem; }
 .f2 { font-size: 2.25rem; }
 .f3 { font-size: 1.5rem; }
 .f4 { font-size: 1.25rem; }
@@ -2108,13 +2108,51 @@ ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
-@font-face { font-family: "Swiss_721"; font-weight: 500; src: url( "../fonts/debae208-0c7b-4232-ba62-313e2d9d14c7.eot?#iefix" ); src: url( "../fonts/debae208-0c7b-4232-ba62-313e2d9d14c7.eot?#iefix" ) format( "eot" ), url( "../fonts/c01ba868-3eaf-4bf4-b173-216c1156d174.woff2" ) format( "woff2" ), url( "../fonts/19c307d6-6fd8-47d3-a56d-fa998322491a.woff" ) format( "woff" ), url( "../fonts/61571c7a-d78e-4d50-822d-194e2b92a1f1.ttf" ) format( "truetype" ), url( "../fonts/eafecdd5-35c6-4dc5-bc71-9b81010c7fa4.svg#eafecdd5-35c6-4dc5-bc71-9b81010c7fa4" ) format( "svg" ); }
-@font-face { font-family: "Swiss_721"; font-weight: 700; src: url( "../fonts/5b9ccca5-47aa-44da-9a69-75a9c5b8f314.eot?#iefix" ); src: url( "../fonts/5b9ccca5-47aa-44da-9a69-75a9c5b8f314.eot?#iefix" ) format( "eot" ), url( "../fonts/b30d2835-5b41-443d-bb15-9fe76345d117.woff2" ) format( "woff2" ), url( "../fonts/6f8c05f7-2d01-4282-ba89-505635df2953.woff" ) format( "woff" ), url( "../fonts/3fa115a3-0515-4bbd-94cc-555dc6341889.ttf" ) format( "truetype" ), url( "../fonts/d3755f1d-88db-4cd3-a42b-8226e3aeeaf4.svg#d3755f1d-88db-4cd3-a42b-8226e3aeeaf4" ) format( "svg" ); }
-@font-face { font-family: "Swiss_721"; font-weight: 800; src: url( "Fonts/27917320-0b2d-426d-98d4-83c0e3d69ae4.eot?#iefix" ); src: url( "Fonts/27917320-0b2d-426d-98d4-83c0e3d69ae4.eot?#iefix" ) format( "eot" ), url( "Fonts/9743ca0d-57a4-4e0c-bfd0-d67e4650c3fe.woff2" ) format( "woff2" ), url( "Fonts/d023055c-f8aa-452a-8706-4ef531637649.woff" ) format( "woff" ), url( "Fonts/b54a684f-f07a-44db-83b1-88e64a71e455.ttf" ) format( "truetype" ), url( "Fonts/ef7088da-e5b3-4467-9b6b-ae692ea09fbb.svg#ef7088da-e5b3-4467-9b6b-ae692ea09fbb" ) format( "svg" ); }
-@font-face { font-family: "Swiss_721"; font-weight: 900; src: url( "../fonts/bf098a5b-1ed4-41db-85df-660e72c30b12.eot?#iefix" ); src: url( "../fonts/bf098a5b-1ed4-41db-85df-660e72c30b12.eot?#iefix" ) format( "eot" ), url( "../fonts/3a45bf22-a313-4e07-937f-5e4501939abb.woff2" ) format( "woff2" ), url( "../fonts/dca67071-e60c-46f2-b400-0050b9ad09cc.woff" ) format( "woff" ), url( "../fonts/c5943c46-938f-4d2e-8d05-483658075cce.ttf" ) format( "truetype" ), url( "../fonts/2f336aca-0379-4448-b0db-c5c501e4a3b5.svg#2f336aca-0379-4448-b0db-c5c501e4a3b5" ) format( "svg" ); }
-body { font-family: "Swiss_721", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; font-weight: 500; }
-.logo { top: 20px; left: 50%; -webkit-transform: translateX( -50% ); transform: translateX( -50% ); display: -ms-grid; display: grid; -ms-grid-columns: ( 1fr )[15]; grid-template-columns: repeat( 15, 1fr ); }
-.about { left: 100%; margin-left: -50px; top: 50%; -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+@font-face { //: "UniversNextW01-Regular"; font-family: "Univers"; font-weight: 500; src: url( "../fonts/6a8ecc96-ca25-462d-b743-4d3a0a56488b.eot?#iefix" ); src: url( "../fonts/6a8ecc96-ca25-462d-b743-4d3a0a56488b.eot?#iefix" ) format( "eot" ), url( "../fonts/d9a4647f-eae6-4f43-9bea-905996bf7d4c.woff2" ) format( "woff2" ), url( "../fonts/cb3c8591-6f6f-498c-b8e7-ee3a9d0a7547.woff" ) format( "woff" ), url( "../fonts/65a9b4cb-e63b-452a-bea2-bd37cc2b10f6.ttf" ) format( "truetype" ), url( "../fonts/a7a08b81-ee91-4e2b-b0ac-2a87a44e0eda.svg#a7a08b81-ee91-4e2b-b0ac-2a87a44e0eda" ) format( "svg" ); }
+@font-face { //: "UniversNW01-740XtdHeavy"; font-family: "Univers"; font-weight: 900; src: url( "../fonts/08b42a26-859e-4e88-a2cc-9d3b8e2e291c.eot?#iefix" ); src: url( "../fonts/08b42a26-859e-4e88-a2cc-9d3b8e2e291c.eot?#iefix" ) format( "eot" ), url( "../fonts/30f33d69-9ddc-44a0-8f23-5905f6485bad.woff2" ) format( "woff2" ), url( "../fonts/87a11da0-5c1e-4af5-96bb-6460ff0f7e0c.woff" ) format( "woff" ), url( "../fonts/d82080b3-fbd5-44d9-acdc-9c42f1d89158.ttf" ) format( "truetype" ), url( "../fonts/7a3d5d42-98a7-4c18-a11e-6d08d7819fb7.svg#7a3d5d42-98a7-4c18-a11e-6d08d7819fb7" ) format( "svg" ); }
+body, button, input { font-family: "Univers", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; font-weight: 500; }
+body { transition: background .05s linear; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+a:hover, button:hover { border-bottom: .04em solid #fff; }
+.stroke { -webkit-text-stroke-width: .02em; -webkit-text-stroke-color: #fff; }
+.clear { clear: both; }
+.transparent { color: transparent; }
+.eyes { left: 50%; -webkit-transform: translateX( -50% ); transform: translateX( -50% ); }
+.ball { top: .125rem; left: 50%; -webkit-transform: translateX( -50% ); transform: translateX( -50% ); height: 70%; width: 40%; -webkit-transform-origin: bottom center; transform-origin: bottom center; -webkit-animation: scroll 2s infinite; animation: scroll 2s infinite; }
+@-webkit-keyframes scroll {
+ 0% { -webkit-transform: translateY( 0 ) translateX( -50% ); transform: translateY( 0 ) translateX( -50% ); opacity: 1; }
+ 100% { -webkit-transform: translateY( 100% ) translateX( -50% ); transform: translateY( 100% ) translateX( -50% ); opacity: 0; }
+}
+@keyframes scroll {
+ 0% { -webkit-transform: translateY( 0 ) translateX( -50% ); transform: translateY( 0 ) translateX( -50% ); opacity: 1; }
+ 100% { -webkit-transform: translateY( 100% ) translateX( -50% ); transform: translateY( 100% ) translateX( -50% ); opacity: 0; }
+}
+.viewport:before { content: "Viewport"; display: inline-block; -webkit-animation-name: viewport; animation-name: viewport; -webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-direction: alternate; animation-direction: alternate; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+@-webkit-keyframes viewport {
+ 0% { content: "Viewport"; }
+ 12.5% { content: "Viewport"; }
+ 25% { content: "Viewpor"; }
+ 37.5% { content: "Viewpo"; }
+ 50% { content: "Viewp"; }
+ 62.5% { content: "View"; }
+ 75% { content: "Vie"; }
+ 87.5% { content: "Vi"; }
+ 100% { content: "V"; }
+}
+@keyframes viewport {
+ 0% { content: "Viewport"; }
+ 12.5% { content: "Viewport"; }
+ 25% { content: "Viewpor"; }
+ 37.5% { content: "Viewpo"; }
+ 50% { content: "Viewp"; }
+ 62.5% { content: "View"; }
+ 75% { content: "Vie"; }
+ 87.5% { content: "Vi"; }
+ 100% { content: "V"; }
+}
+.bottom { right: 30px; bottom: 15px; }
+.bottom-right { right: 0; bottom: 30px; -webkit-transform: rotate( -90deg ); transform: rotate( -90deg ); }
+.top { left: 15px; top: 15px; }
+.top-left { left: 10px; top: 36px; -webkit-transform: rotate( -90deg ); transform: rotate( -90deg ); }
 .container { max-height: 100%; min-height: 40%; min-width: 20%; max-width: 90%; }
 .grid { -ms-grid-columns: ( 1fr )[8]; grid-template-columns: repeat( 8, 1fr ); -ms-grid-rows: ( 1fr )[8]; grid-template-rows: repeat( 8, 1fr ); grid-column-gap: 5%; grid-row-gap: 5%; display: -ms-grid; display: grid; }
 .grid-row-1 { -ms-grid-row: 1; grid-row-start: 1; }
@@ -2549,7 +2587,7 @@ body { font-family: "Swiss_721", -apple-system, BlinkMacSystemFont, 'avenir next
  .ttn-ns { text-transform: none; }
  .f-6-ns, .f-headline-ns { font-size: 6rem; }
  .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
- .f1-ns { font-size: 3rem; }
+ .f1-ns { font-size: 3.5rem; }
  .f2-ns { font-size: 2.25rem; }
  .f3-ns { font-size: 1.5rem; }
  .f4-ns { font-size: 1.25rem; }
@@ -2972,7 +3010,7 @@ body { font-family: "Swiss_721", -apple-system, BlinkMacSystemFont, 'avenir next
  .ttn-m { text-transform: none; }
  .f-6-m, .f-headline-m { font-size: 6rem; }
  .f-5-m, .f-subheadline-m { font-size: 5rem; }
- .f1-m { font-size: 3rem; }
+ .f1-m { font-size: 3.5rem; }
  .f2-m { font-size: 2.25rem; }
  .f3-m { font-size: 1.5rem; }
  .f4-m { font-size: 1.25rem; }
@@ -3395,7 +3433,7 @@ body { font-family: "Swiss_721", -apple-system, BlinkMacSystemFont, 'avenir next
  .ttn-l { text-transform: none; }
  .f-6-l, .f-headline-l { font-size: 6rem; }
  .f-5-l, .f-subheadline-l { font-size: 5rem; }
- .f1-l { font-size: 3rem; }
+ .f1-l { font-size: 3.5rem; }
  .f2-l { font-size: 2.25rem; }
  .f3-l { font-size: 1.5rem; }
  .f4-l { font-size: 1.25rem; }

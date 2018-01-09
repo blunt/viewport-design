@@ -2114,6 +2114,10 @@ body, button, input { font-family: "Univers", -apple-system, BlinkMacSystemFont,
 body { transition: background .05s linear; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 a:hover, button:hover { border-bottom: .04em solid #fff; }
 .stroke { -webkit-text-stroke-width: .02em; -webkit-text-stroke-color: #fff; }
+.animate { transition: all .3s ease-in; transition-delay: 1s; }
+.animate-up { transition: all 1s ease-in; transition-delay: 0s; }
+.fade-in { opacity: 0; }
+.fade-up { -webkit-transform: translateY( 15% ); transform: translateY( 15% ); opacity: 0; }
 .clear { clear: both; }
 .transparent { color: transparent; }
 .eyes { left: 50%; -webkit-transform: translateX( -50% ); transform: translateX( -50% ); }

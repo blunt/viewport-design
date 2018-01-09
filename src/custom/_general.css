@@ -34,6 +34,25 @@ a:hover, button:hover {
     -webkit-text-stroke-color: #fff;
 }
 
+.animate {
+    transition: all .3s ease-in;
+    transition-delay: 1s;
+}
+
+.animate-up {
+    transition: all 1s ease-in;
+    transition-delay: 0s;
+}
+
+.fade-in {
+    opacity: 0;
+}
+
+.fade-up {
+    transform: translateY(15%);
+    opacity: 0;
+}
+
 .clear {
     clear: both;
 }

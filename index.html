@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <div class="fixed w-100 z-3">
+    <div class="fixed w-100 z-3 fade-in animate">
         <div class="mw9 center w-90 pv3 cf white-50 tc f6">
             <span class="fl db w-third-ns w-50">By <a class="link white fw9" href="http://blunt.af" target="_blank">Blunt</a></span>
             <span class="fl db-ns dn w-third">Share on 
@@ -62,11 +62,11 @@
         </div>
     </div>
     <div class="panel vh-100 flex items-center relative" data-color="#000">
-        <h1 class="f1-l tc f2 white w-100 nt4-ns nt3 fw9 lh-title">
+        <h1 class="f1-l tc f2 white w-100 nt4-ns nt3 fw9 lh-title animate-up fade-up">
             <span class="viewport"></span>
             <span class="fw9 stroke black design dib-ns db">Design</span>
         </h1>
-        <div class="absolute pv3 bottom-0 eyes">
+        <div class="absolute pv3 bottom-0 eyes fade-in animate">
             <span class="dib br-100 w1 h1 relative">
                 <span class="ball bg-white br-pill db absolute"></span>
             </span>
@@ -183,6 +183,11 @@
             body.classList.remove("overflow-hidden");
         }
     }
+
+    $(document).ready(function(){
+        $('.fade-in').removeClass('fade-in');
+        $('.fade-up').removeClass('fade-up');
+    })
 </script>
 
 </html>

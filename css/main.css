@@ -2114,6 +2114,7 @@ body, button, input { font-family: "Univers", -apple-system, BlinkMacSystemFont,
 body { transition: background .05s linear; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 a:hover, button:hover { border-bottom: .04em solid #fff; }
 .stroke { -webkit-text-stroke-width: .02em; -webkit-text-stroke-color: #fff; -webkit-text-fill-color: transparent; }
+.stroke.black { -webkit-text-stroke-color: #000; }
 .animate { transition: all .3s ease-in; transition-delay: 1.5s; }
 .animate-up { transition: all 2s cubic-bezier( .19, 1, .22, 1 ); transition-delay: 0s; }
 .fade-in { opacity: 0; }

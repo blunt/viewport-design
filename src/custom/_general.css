@@ -35,6 +35,10 @@ a:hover, button:hover {
     -webkit-text-fill-color: transparent;
 }
 
+.stroke.black {
+    -webkit-text-stroke-color: #000;
+}
+
 .animate {
     transition: all .3s ease-in;
     transition-delay: 1.5s;
